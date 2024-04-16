@@ -1,0 +1,61 @@
+[
+  [
+    {
+        "user": "Katia Del Angel Rendon",
+      "review": "Me encanta la asesoría!! Es muy práctica, con metas realistas, muy acorde a tu estilo de vida, flexible y siempre está disponible para las dudas!! Excelente trabajo!!."
+    },
+    {      "user": "Fer Vargas",
+      "review": "Excelente nutrióloga, se adapta a tus necesidades y presupuesto. Es muy accesible y amable para resolver cualquier duda que tengas, te enseña a tener un estilo de vida saludable de la mejor manera; sin esas dietas restrictivas que te hacen tirar la toalla, si quieres realmente resultados es de la mano de sus conocimientos, tu constancia y dedicación al plan alimenticio. ¡La recomendaría una y mil veces!"
+
+    },
+    {
+        "user": "Sanvicente Silva",
+      "review": "Me acerqué a la doctora por recomendación de un amigo, el trato es excelente. En el tratamiento la doctora te va llevando paso a paso para obtener tus resultados y una mejor calidad de vida, ya que con una muy buena alimentación físicamente te sientes mucho mejor. Le da buen seguimiento a tus requerimientos conforme vayas avanzando en el proceso. La doctora es muy atenta, te explica detalladamente cada punto, tiene la atención y comunicación para preguntar cómo te has sentido, cómo ves tu dieta, si hay algo que te gustaría modificar etc. La recomiendo ampliamente, es una inversión que vale muchísimo la pena y más porque es en tu persona y en tu salud."
+    }
+  ],
+  [
+    {
+        "user": "Calor VelSan",
+        "review": "Me encanta la consulta, se ajusta súper bien a las necesidades y es muy flexible en cuanto horarios y costos, siempre se encuentra una asesoría completa y notas los cambios súper rápido!! Súper recomendado!!!"
+    },
+    {
+        "user": "Ricardo Lemus",
+        "review": "Me alegra mucho estar en el mundo de la nutrición y más que comencé con Valeria. He avanzado mucho en las metas que tengo y en las cuales me sentía estancado."
+    },
+    {
+        "user": "Pao Galindo",
+        "review": "Recomiendo ampliamente a Vale como nutrióloga. Es una persona sumamente profesional y dedicada que, en lo personal, me ha ayudado bastante a cuidar mi salud y a alcanzar mis metas."
+    }
+  ],
+  [
+    {
+        "user": "Mish Huidobro Meezs",
+        "review": "Valeria es una persona súper amable, siempre dispuesta a resolver todas las dudas y al pendiente de todos sus pacientes, sus planes son súper fáciles y prácticos, siempre se adapta a tu vida y además sus recetas son deliciosas. 🙏❤️"
+    },
+    {
+        "user": "Pau Viquez",
+        "review": "La atención es excelente, te da una buena orientación de lo que debes, o no consumir y con moderación. Muy dedicada con los pacientes. 👌👍🤗"
+    },
+    {
+        "user": "Valeria Esquivel",
+        "review": "Buena atención, siempre al pendiente de tus necesidades y de cómo te sientes. Los planes de alimentación son accesibles, prácticos y muy ricos.Siempre te está motivando y es muy paciente para explicar cada detalle. Muy recomendable para mejorar hábitos y salud. 😊"
+    },
+    {
+        "user": "Ricardo Lemus",
+        "review": "Me alegra mucho estar en el mundo de la nutrición y más que comencé con Valeria. He avanzado mucho en las metas que tengo y en las cuales me sentía estancado.",
+        "evidence": true
+    },
+    {
+        "user": "Xhan García",
+        "review": "Excelente atención, la manera en cómo te lleva a cumplir tus objetivos de la manera más amigable es genial, es excelente para motivarte, y te ayuda con el plan alimenticio que sea de acuerdo a tus gustos y fácil de llevar, y es una ayuda integra. Estoy muy agradecida con su apoyo y guía."
+    },
+    {
+        "user": "Brenda Liliana Hernandeza",
+        "review": "Asesoría personalizada! Siempre está al pendiente por el Whats! 🌸 Cualquier duda la aclaró super bien! Los resultados se notan rápido. Muy recomendado!"
+    },
+    {
+        "user": "Maggie Ojeda",
+        "review": "Todos los menús son deliciosos 😋 y lo mejor de todo es que he visto los cambios que necesitaba y he mejorado mi alimentación ¡Gracias! 🧡"
+    }
+  ]
+]
