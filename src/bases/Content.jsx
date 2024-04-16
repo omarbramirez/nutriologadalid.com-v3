@@ -5,6 +5,8 @@ import Contact from '../pages/Contact.jsx'
 import Policy from '../pages/Policy.jsx';
 import Services from '../pages/Services.jsx';
 import Testimonials from '../pages/Testimonials.jsx';
+import Renewal from '../pages/Renewal.jsx';
+import Gens from '../pages/Gens.jsx';
 import NotFound from './NotFound.jsx'
 
 function Content ({page, setPage}){
@@ -12,6 +14,8 @@ function Content ({page, setPage}){
         <>
         <div className= {`${page}-content content`}>
             { page === 'index' ? <Index setPage={setPage}/> :
+              page === 'renewal' ? <Renewal setPage={setPage}/> :
+              page === 'gens' ? <Gens setPage={setPage}/>:  
               page === 'services' ? <Services setPage={setPage}/> :
               page === 'testimonials' ? <Testimonials setPage={setPage}/>:
               page === 'contact' ? <Contact setPage={setPage}/> :

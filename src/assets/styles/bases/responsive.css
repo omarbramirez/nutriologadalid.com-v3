@@ -50,6 +50,9 @@
         text-align: right;
         font-size: var(--text-display);
     }
+    .menu_options_wrap{
+        display:none;
+    }
     .menu_options{
         display: none;
     }

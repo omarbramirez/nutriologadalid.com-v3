@@ -30,19 +30,28 @@ function Header ({setPage, page}){
             <nav id="menu">
                 <a onClick={IndexTrigger} id="logo"><img src={Logo} alt="logo" /></a>
                     <img  id="hamburger"  onClick={toggleMenu} className='icon' src={Burger} alt="burger" style={{ width: '15%' }} />
-                
+                    <div className={`menu_options_wrap`} >
+
+                    <ul className={`menu_options `}>
+
+                <li><a className={`new-section`} onClick={()=>setPage('renewal')}>Renovando tu cuerpo</a> <p className={`new-section-after`}>nuevo</p></li>
+                <li><a className={`new-section`} onClick={()=>setPage('gens')} >Estudio de genética</a> <p className={`new-section-after`}>nuevo</p></li>
+                    <li><a onClick={()=>setPage('appointment-module')} className="products-button">Agenda tu Consulta</a></li>
+                    </ul>
                 <ul className={`menu_options `}>
                     <li><a onClick={()=>setPage('services')}>Servicios</a></li>
                     <li><a onClick={()=>setPage('testimonials')}>Testimoniales</a></li>
                     <li><a onClick={()=>setPage('contact')} >Contacto</a></li>
                     <li><a onClick={()=>setPage('aboutme')} >Sobre mí</a></li>
-                    <li><a onClick={()=>setPage('appointment-module')} className="products-button">Agenda tu Consulta</a></li>
                 </ul>
+                    </div>
             </nav>
             
                 <div className={`_responsive_menu ${menuActive ? 'm_activate' : ''}`}>
                 <img src={Close} alt="close" style={{ width: '14%', margin: '1rem' }}  onClick={toggleMenu} className='icon'/>
             <ul className={`_menu_options `}>
+            <li><a className={`new-section`} onClick={()=>setPage('renewal')}>Renovando tu cuerpo</a> <p className={`new-section-after`}>nuevo</p></li>
+                <li><a className={`new-section`} onClick={()=>setPage('gens')} >Estudio de genética</a> <p className={`new-section-after`}>nuevo</p></li>
             <li><a onClick={()=>setPage('index')}>Inicio</a></li>
             <li><a onClick={()=>setPage('services')}>Servicios</a></li>
                     <li><a onClick={()=>setPage('testimonials')}>Testimoniales</a></li>

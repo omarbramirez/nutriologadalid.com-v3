@@ -19,3 +19,6 @@
 
 /*FONTS*/
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Montserrat:wght@300&display=swap");
+
+/*NEW SECTIONS*/
+@import url("bases/newsections.css")

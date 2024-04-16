@@ -1,4 +1,28 @@
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 function Contact (){
+  const form = useRef();
+  const serviceID = import.meta.env.VITE_EMAIL_SERVICE_ID;
+  const emailKey = import.meta.env.VITE_EMAIL_KEY;
+  const emailTemplateID = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(serviceID, emailTemplateID, form.current, {
+        publicKey: emailKey,
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
     return(
         <>
          <div className="content contact-content">
@@ -15,12 +39,15 @@ function Contact (){
 
       <div className="contact-form" style={{ backgroundColor: 'var(--graduation-3)' }}>
         <h4 style={{ color: 'var(--white-5)', marginBottom: '1.5rem' }}>Déjame todas las dudas que tengas</h4>
-        <form action="/mail-sent" method="get" acceptCharset="ISO-8859-1">
-          <input type="text" placeholder="Nombre" maxLength="30" name="name" required id="nombre" /><br />
-          <input type="email" placeholder="Correo" maxLength="40" name="email" required id="email" /><br />
-          <textarea type="text" placeholder="Mensaje" maxLength="2000" name="message" required id="message"></textarea><br />
-          <input type="submit" name="send" value="Enviar" id="send" />
-        </form>
+        <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
       </div>
     </div>
         </>
