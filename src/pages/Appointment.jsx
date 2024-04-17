@@ -3,7 +3,7 @@ import Wall from '../assets/images/wall.png'
 function Appointment (){
     return(
 <>
-<div style={{ height: '80vh', display: 'grid', justifyContent: 'center', alignItems: 'center', alignContent: 'center' }} className="content">
+<div style={{ height: '80vh', display: 'grid', justifyContent: 'center', alignItems: 'center', alignContent: 'center' }}>
       <p style={{ textAlign: 'center' }}>
         <br />Esta parte de la página se encuentra en construcción en estos momentos...
       </p>

@@ -21,6 +21,7 @@
         color: var(--primary-white);
         position:relative;
         top: 0.2rem;
+        padding: 0 2%;
         width: fit-content;
 block-size: fit-content;
     }

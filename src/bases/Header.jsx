@@ -52,12 +52,12 @@ function Header ({setPage, page}){
             <ul className={`_menu_options `}>
             <li><a className={`new-section`} onClick={()=>setPage('renewal')}>Renovando tu cuerpo</a> <p className={`new-section-after`}>nuevo</p></li>
                 <li><a className={`new-section`} onClick={()=>setPage('gens')} >Estudio de genética</a> <p className={`new-section-after`}>nuevo</p></li>
+                    <li><a onClick={()=>setPage('appointment-module')} className="products-button" style={{color:"var(--black-3)"}}>Agenda tu Consulta</a></li>
             <li><a onClick={()=>setPage('index')}>Inicio</a></li>
             <li><a onClick={()=>setPage('services')}>Servicios</a></li>
                     <li><a onClick={()=>setPage('testimonials')}>Testimoniales</a></li>
                     <li><a onClick={()=>setPage('contact')} >Contacto</a></li>
                     <li><a onClick={()=>setPage('aboutme')} >Sobre mí</a></li>
-                    <li><a onClick={()=>setPage('appointment-module')} className="products-button" style={{backgroundColor:'transparent'}}>Agenda tu Consulta</a></li>
                 <ul  style={{ width: '50%', display: 'flex'}}>
                     <li className="f_icon"><a href="https://www.instagram.com/consulta_nutri/" target="_blank">
                     <img src={Instagram} alt="instagram" style={{ width: '60%'}} /></a></li>
