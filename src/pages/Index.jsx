@@ -64,7 +64,7 @@ function Index ({setPage}){
             </ul>
         </div>
         <div className="section02">
-            <h1 style={{ margin: '5% auto' }}>Una Oportunidad Integral</h1>
+            <h1>Una Oportunidad Integral</h1>
             <div className="section02-flex">
                 <div className="calltoaction-section02">
                     <div>1</div>
@@ -106,7 +106,7 @@ function Index ({setPage}){
         <Reviews dataBase={ReviewsData[0]} startData={0} imgs={Pics}/>
         <Banner txt={'Para mi será un gusto acompañarte en tu proceso de cambio este 2022 🥑 ❤'}/>
         <div className="main_services">
-            <h1 style={{ margin: '5% auto' }}>Todo lo que necesitas para empezar tu proceso de cambio</h1>
+            <h1>Todo lo que necesitas para empezar tu proceso de cambio</h1>
             <div className="main_services-flex">
                 <div className="calltoaction-main_services">
                     <h3>Dietas Especializadas</h3>

@@ -1,0 +1,18 @@
+.reviews_slider.renewal{
+    background:var(--complementary-2)
+}
+.reviews_slider.renewal h1{
+    color: var(--primary-white);
+}
+.review.renewal{
+    background:var(--white-5);
+}
+.user_name.renewal{
+    color: var(--complementary-2);
+}
+.dot.renewal{
+    background: var(--white-3);
+}
+.dot.active.renewal{
+    background: var(--black-1);
+}

@@ -15,7 +15,7 @@
     h3,
     h4,
     .button{
-      text-align: center !important;
+      text-align: center ;
     }
 
     p,
@@ -207,6 +207,7 @@
 
 .review{
     width: 90%;
+    padding: 4em 0;
 }
 
 .user_name{

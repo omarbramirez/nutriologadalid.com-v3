@@ -2,7 +2,7 @@ footer {
   grid-area: footer;
   background-color: var(--graduation-4);
   color: var(--white-5);
-  padding: 1% 6%;
+  padding: 0.2% 6% 1% 6%;
   clear: both;
 }
 
@@ -55,4 +55,9 @@ footer p {
 
 .tiktok {
   background-position: 50% 0;
+}
+@media (max-width: 900px){
+  footer{
+    padding: 2% 6% 4% 6%;
+  }
 }

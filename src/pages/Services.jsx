@@ -37,7 +37,7 @@ function Services ({setPage}){
       <a id="floating_icon" className="fa-brands fa-whatsapp" href="whatsapp://send?text= &phone=+527293318885&abid=+5217225848839"></a>
     </div>
     <div className="main_services">
-      <h1 style={{ margin: '5% auto' }}>Consulta Presencial y En línea</h1>
+      <h1>Consulta Presencial y En línea</h1>
       <br />
       <h3>Para primeras consultas, te sugiero tener tiempo y estar sin distracciones.</h3>
       <div className="main_services-flex">
@@ -75,7 +75,7 @@ function Services ({setPage}){
       </div>
     </div>
     <form className="faq-section">
-      <h1 style={{ margin: '5% auto', color: 'black' }}>FAQ</h1>
+      <h1 style={{ margin: ' auto', color: 'black' }}>FAQ</h1>
       <label htmlFor="faq-identifier-1" className="faq-label">
         <span className="faq-title">¿CUÁNTAS CONSULTAS NECESITO PARA VER EL CAMBIO?<div className="arrow"></div> </span>
         <input id="faq-identifier-1" type="radio" name="faq" className="faq-identifier" />

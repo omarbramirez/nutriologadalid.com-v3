@@ -1,0 +1,49 @@
+.fullscreen-wrap{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  position: sticky;
+  width: 100%;
+  height: 100vh;
+        top: 0;
+        background-color: var(--black-5);
+        -webkit-transition: all 0.5s 0s ease;
+        -moz-transition: all 0.5s 0s ease;
+        -o-transition: all 0.5s 0s ease;
+        transition: all 0.5s 0s ease;
+        z-index:1000000;
+      }
+      .close-icon-fullscreen{
+        position: absolute;
+        z-index:1000001;
+        width:4rem;
+        height:4rem;
+        right: 2%;
+        top: 2%;
+      }
+      .background-fullscreen{
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -webkit-object-fit: cover;
+        z-index: 0;
+        transition: all 0.3s ease-out;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+      }
+
+      @media (min-width: 900px){
+        .background-fullscreen{
+          position:static;
+          max-width: 600px;
+          width: 30vw;
+          height: 90vh;
+          border-radius: 2.8rem;
+        }
+      }

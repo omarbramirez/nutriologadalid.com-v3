@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Paquete 1",
+        "price": "$10",
+        "headline": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae aliquam lorem. Quisque eu semper leo.",
+        "description": "Aquí va una descripción resumida pero atractiva.",
+        "features":["Primera ventaja.","Segunda ventaja.","Tercera ventaja.","Cuarta ventaja."]
+    },
+    {
+        "title": "Paquete 2",
+        "price": "$25",
+        "headline": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae aliquam lorem. Quisque eu semper leo.",
+        "description": "Aquí va una descripción resumida pero atractiva.",
+        "features":["Primera ventaja.","Segunda ventaja.","Tercera ventaja.","Cuarta ventaja."]
+    },
+    {
+        "title": "Paquete 3",
+        "price": "$30",
+        "headline": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae aliquam lorem. Quisque eu semper leo.",
+        "description": " Aquí va una descripción resumida pero atractiva.",
+        "features":["Primera ventaja.","Segunda ventaja.","Tercera ventaja.","Cuarta ventaja."]
+    }
+]

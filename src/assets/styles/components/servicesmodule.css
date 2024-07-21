@@ -1,0 +1,129 @@
+
+
+.services-module{
+    display: block;
+    background-color: var(--primary);
+    margin: 0;
+    position: static;
+    padding: 20px;
+    height: auto;
+  }
+
+  .services-module.packs{
+    background: var(--complementary-2);
+  }
+
+  .services-module-flex{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .calltoaction-services-module{
+    display: inline-block;
+    background-color: var(--primary-white);
+    width: 33%;
+    height: auto;
+    padding: 40px 20px;
+    border-radius: 2.8rem;
+    padding-top: 0;
+    margin: 1%;
+    margin-top: 60px;
+  }
+  
+  .calltoaction-services-module div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: static;
+    margin: 10px auto;
+    margin-top: -60px;
+    font-family: var(--font-2);
+    font-size: 3em;
+    color: var(--white-2);
+  }
+  
+  .calltoaction-services-module p{
+    text-align: left;
+    color: var(--black-1);
+  }
+  
+
+/*SECTION 2 RESPONSIVE STYLES*/
+
+.services-module{
+    padding-bottom: 10vh;  
+  }
+  
+  .services-module-flex{
+      flex-direction: column !important;
+  }
+  
+  .calltoaction-services-module{
+      width: auto;
+  }
+  
+  .calltoaction-services-module div{
+      width: 60px;
+      height: 60px;
+      margin-top: -30px;
+  }
+  
+  
+  .servicemodule-description{
+    
+      margin: 3vh 0 0 0;
+  }
+
+  .servicesmodule-button{
+    text-align: center;
+    border-radius: 10em;  
+    border: 2px solid var(--complementary-2);
+  }
+  .servicesmodule-pricing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .servicesmodule-number{
+    display: block;
+    font-size: 4em;
+    text-align: center;
+    margin: 0;
+    margin-right: 0.2rem;
+    color: var(--complementary-3);
+  }
+  .servicemodule-feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto 1rem;
+  }
+  .servicemodule-feature p{
+    margin:0;
+    padding:0;
+    text-align:left;
+  }
+  img[alt='check-circle']{
+    width: 2em;
+    max-width:50px;
+    margin-right: 0.5rem;
+
+  }
+
+
+  @media (min-width: 900px){
+
+    .services-module-flex{
+      flex-direction: row !important;
+    }
+    .calltoaction-services-module{
+      width:33%;
+    }
+    .calltoaction-services-module div{
+      width: 100px;
+      height: 100px;
+      margin-top: -60px;
+  }
+  }

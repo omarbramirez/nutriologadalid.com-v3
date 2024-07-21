@@ -101,11 +101,11 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: var(--graduation-2) !important;
+  background: var(--graduation-2) ;
 }
 
 .dot.active{
-  background: var(--graduation-3) !important; 
+  background: var(--graduation-3); 
 }
 
 .section02{
@@ -231,8 +231,8 @@ i.complement-ls{
 
 .user {
   display: block;
-  width: 25vw;
-  max-width: 250px;
+  width: 60%;
+  max-width: 300px;
   border-radius: 50%;
   object-fit: scale-down;
 }
@@ -240,7 +240,7 @@ i.complement-ls{
 .review{
   display: block;
   width: 40%;
-  padding: 2vw;
+  padding: 4em 0;
   border-radius: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;

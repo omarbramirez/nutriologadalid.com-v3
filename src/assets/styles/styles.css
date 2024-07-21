@@ -20,5 +20,16 @@
 /*FONTS*/
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Montserrat:wght@300&display=swap");
 
+/*COMPONENTS*/
+@import url("components/facade.css");
+@import url("components/fullscreen.css");
+@import url("components/paymentmethods.css");
+@import url("components/servicesmodule.css");
+@import url("components/stats.css");
+@import url("components/oneservice.css");
+@import url("components/reviews.css");
+@import url("components/paymentsteps.css");
+
+
 /*NEW SECTIONS*/
 @import url("bases/newsections.css")

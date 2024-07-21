@@ -1,0 +1,49 @@
+.payment-method{
+    width: 50%;
+    margin: auto;
+}
+.method{
+    text-align: center;
+    margin: 3rem 0;
+}
+.method a h3{
+
+    font-size: var(--text-headline);
+}
+.payment-method-headline{
+    width:80%;
+    margin: auto;
+}
+.payment-method-headline b{
+    font-size: var(--text-title);
+    color: var(--complementary-2);
+}
+@media (min-width: 900px){
+    .payment-methods-list{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin:2% 0 6% 0;
+    }
+    .method{
+        width:25%;
+    }
+    .payment-method{
+        width:60%;
+        transition: transform 0.2s ease-in-out;
+    }
+    .payment-method:hover{
+        animation: shake 0.5s infinite;
+    }
+    .method a h3{
+        font-size: 100%;
+    }
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-5px); }
+        50% { transform: translateX(5px); }
+        75% { transform: translateX(-5px); }
+        100% { transform: translateX(0); }
+    }
+
+}

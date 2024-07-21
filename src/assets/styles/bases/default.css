@@ -3,6 +3,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: var(--font-1);
+  box-sizing: border-box;
 }
 
 body {
@@ -58,12 +59,13 @@ a:hover{
 }
 
 h1{
+  box-sizing: content-box;
   display: block;
   font-weight: bold;
   color: var(--white-2);
   font-family: var(--font-2);
   font-size: var(--text-display);
-  margin-bottom: 1rem;
+  margin: 4rem auto;
   text-align: center; 
 }
 
@@ -104,7 +106,9 @@ h4{
   color: var(--primary-white);
 
 }
-
+li{
+  list-style: none;
+}
 p {
   color: var(--black-3);
   font-size: var(--text-base);
@@ -208,4 +212,11 @@ background-color: var(--graduation-2);
 
 .content-privacypolicy>p{
   text-align: center;
+}
+
+
+@media (min-width: 900px){
+  h1{
+    font-size: 5rem;
+  }
 }

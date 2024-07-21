@@ -1,0 +1,15 @@
+[
+    {
+        "stat": "90%",
+        "headline": "Aquí va un encabezado relacionado con la cantidad en rosa",
+        "description": "Aquí va una descripción más detallada del beneficio del tratamiento."
+    },
+    {
+        "stat": "5+",
+        "headline": "Aquí va un encabezado relacionado con la cantidad en rosa",
+        "description": "Aquí va una descripción más detallada del beneficio del tratamiento."    },
+    {
+        "stat": "3/4",
+        "headline": "Aquí va un encabezado relacionado con la cantidad en rosa",
+        "description": "Aquí va una descripción más detallada del beneficio del tratamiento." }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "method": "paypal",
+        "steps":["Este es el primer paso para detallar las acciones que nuestros clientes deben hacer para completar el pago.", "Este es el segundo paso para detallar las acciones que nuestros clientes deben hacer para completar el pago.", "Este es el tercer paso para detallar las acciones que nuestros clientes deben hacer para completar el pago."]
+    },
+    {
+        "method": "visamaster",
+        "steps":["Este es el primer paso para detallar las acciones que nuestros clientes deben hacer para completar el pago.", "Este es el segundo paso para detallar las acciones que nuestros clientes deben hacer para completar el pago.", "Este es el tercer paso para detallar las acciones que nuestros clientes deben hacer para completar el pago."]
+    },
+    {
+        "method": "oxxo",
+        "steps":["Este es el primer paso para detallar las acciones que nuestros clientes deben hacer para completar el pago.", "Este es el segundo paso para detallar las acciones que nuestros clientes deben hacer para completar el pago.", "Este es el tercer paso para detallar las acciones que nuestros clientes deben hacer para completar el pago."]
+    },
+    {
+        "method": "money",
+        "steps":["Este es el primer paso para detallar las acciones que nuestros clientes deben hacer para completar el pago.", "Este es el segundo paso para detallar las acciones que nuestros clientes deben hacer para completar el pago.", "Este es el tercer paso para detallar las acciones que nuestros clientes deben hacer para completar el pago."]
+    }
+]

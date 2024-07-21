@@ -1,0 +1,49 @@
+.stats{
+    display:block;
+    background: var(--primary);
+    padding: 1rem 2.1rem;
+    padding-bottom: 0rem;
+}
+
+.renewal-stat{
+    display: block;
+    text-align: center;
+}
+.stat-number{
+    font-size: 5em;
+    margin: 0 0.4rem;
+    color: var(--complementary-3);
+}
+.stat-headline{
+    display: inline-block; /* o display: inline; */
+    vertical-align: top;
+    font-size: var(--text-headline);
+    margin: 0;
+}
+
+.stat-description{
+    font-size: var(--text-title);
+    margin: 5% auto;
+}
+
+.stat-img{
+    width: 100%;
+}
+@media (min-width: 900px){
+    .stat-img{
+        width: 50%;
+    } 
+    .stats-wrap{
+        display:flex;
+        flex-direction: row;
+        align-items: end;
+    }
+    .stats-wrap ul{
+        width: 50%;
+        z-index: 1;
+    }
+    .renewal-stat{
+        display:flex;
+        text-align: left;
+    }
+}

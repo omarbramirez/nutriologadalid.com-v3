@@ -1,6 +1,7 @@
 .contact-content{
     display: flex;
     justify-content: right;
+    background-color: var(--graduation-1);
 }
 
 .contact-form,

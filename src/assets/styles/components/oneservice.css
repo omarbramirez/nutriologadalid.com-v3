@@ -1,0 +1,105 @@
+.oneservice{
+    min-height:90vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.oneservice-wrap{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 2.1rem;
+    margin-bottom:5em; 
+}
+.oneservice-wrap div{
+    text-align:center;
+}
+.oneservice-title{
+    margin-bottom: 0.4em;
+    color: var(--black-5);
+}
+
+.oneservice-button{
+  border-radius: 10em;  
+  border: none;
+  background: var(--complementary-2);
+  color: var(--primary-white);
+}
+.oneservice-headline{
+    box-sizing: border-box;
+    font-size: var(--text-headline);
+    margin: 0 ;
+}
+.oneservice-description{
+    box-sizing: border-box;
+    font-size: var(--text-title);
+    margin: 5% auto;
+}
+.oneservice-img{
+    box-sizing: border-box;
+    width: 90%;
+    height: 100%; /* Ocupa todo el alto del contenedor */
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.oneservice-img-container{
+    box-sizing: border-box;
+    position: relative; /* Asegura que el pseudo-elemento se posicione correctamente */
+    width: 95%;
+    max-width: 400px;
+    margin: 1rem 2.1rem;
+    box-sizing: border-box;
+}
+.oneservice-img-container::before{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: border-box;
+    content: ''; /* Agrega contenido vacío */
+    display: block;
+    position: absolute; /* Posición absoluta dentro del contenedor */
+    top: 10%; /* Lo posiciona en la parte superior del contenedor */
+    left: 10%; /* Lo posiciona en el borde izquierdo del contenedor */
+    width: 90%; /* Ocupa todo el ancho del contenedor */
+    height: 100%; /* Ocupa todo el alto del contenedor */
+    background: var(--white-4); /* Color de fondo para el pseudo-elemento */
+    z-index: -1;
+}
+
+@media (min-width: 900px){
+
+    .oneservice-wrap{
+        display:flex;
+        flex-direction: row;
+    }
+    .oneservice-button{
+        width: 40%;
+        max-width:300px;
+        margin:1rem 0;
+    }
+    .oneservice-title{
+        margin-bottom: 4rem;
+    }
+    .oneservice-wrap div{
+        text-align:left;
+    }
+    .oneservice-module{
+        width:50%;
+        padding: 5%;
+    }
+    .oneservice-description{
+        width:100%;
+    }
+    .oneservice-img-container{
+        max-width: 600px;
+    }
+    .oneservice-img{
+        max-width: 600px;
+    }
+    .oneservice-img::before{
+        max-width: 600px;
+    }
+}
