@@ -76,7 +76,7 @@ function Content ({page, setPage, setFullscreen}){
               page === 'payment-success' ? <PaymentSuccess setPage={setPage} mainEvent={mainEvent} mainDate={mainDate}/> :
               page === 'payment-cancel' ? <PaymentCancel setPage={setPage}/> :
               page === 'aboutme' ? <Aboutme setPage={setPage}/> :
-              page === 'appointment-module' ? <Appointment setPage={setPage}/> :
+              // page === 'appointment-module' ? <Appointment setPage={setPage}/> :
               page === 'privacypolicy' ? <Policy setPage={setPage}/> :
               page === 'paypal' || page === 'visamaster' || page === 'oxxo' || page === 'money' ? <PaymentSteps page={page}/> :
             <NotFound setPage={setPage}/>
